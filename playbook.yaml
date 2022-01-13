@@ -1,6 +1,6 @@
-
-- name: install nginx
+- name: installation nginx
   hosts: all
+  remote_user: root
   become: yes
-   roles:
+  roles:
     - nginx
